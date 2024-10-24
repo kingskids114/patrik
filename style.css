@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(121, 255, 0);
+    background: linear-gradient(90deg, rgba(121, 255, 0, 1) 14%, rgba(117, 124, 65, 1) 37%, rgba(143, 80, 124, 1) 61%, rgba(92, 72, 159, 1) 76%, rgba(187, 52, 52, 1) 88%);
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    color: chocolate;
+    background: rgb(255, 238, 0);
+    border: 2px solid yellowgreen;
+}
+
+#ekran {
+    width: 170px;
+    color: chocolate;
+    background: rgb(255, 238, 0);
+    border: 2px solid yellowgreen;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+}
